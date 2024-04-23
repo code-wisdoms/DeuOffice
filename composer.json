@@ -1,0 +1,19 @@
+{
+    "name": "codewisdoms/deu-office-lookup",
+    "description": "Lookup DEU office details by zip code",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CodeWisdoms\\DeuOfficeLookup\\": "src/"
+        }
+    },
+    "authors": [
+      {
+        "name": "CodeWisdoms"
+      }
+    ],
+    "require": {
+      "guzzlehttp/guzzle": ">=1.0.0"
+    }
+}
